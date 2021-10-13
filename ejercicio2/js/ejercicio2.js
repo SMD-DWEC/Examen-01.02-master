@@ -6,33 +6,33 @@
 */
 
 /*
-  Autor: Sergio Matamoros Delgado
+  Autor: Sergio Matamoros Delgado <smatamorosdelgado.guadalupe@alumnado.fundacionloyola.net>
   Fecha: 13-10-2021
+  Licencia: GNU Affero General Public License v3.0
 */
 
 'use strict'
 
-
+//Función que comprueba la edad actual a partir de una fecha dada
 function comprobarEdad(fecha) {
 
-  /*let fechaActual = new Date();
+  let hoy = new Date();
   let cumpleanios = new Date(fecha);
-  let edad = cumpleanios.getFullYear() - fechaActual.getFullYear();
-  let mes = cumpleanios.getMonth() - fechaActual.getMonth();
+  let edad = cumpleanios.getFullYear();
+  let mes = cumpleanios.getMonth();
+  if(hoy.getDate() < cumpleanios.getDate())
+    edad--;
 
-  let edadTotal =0;
 
-  for(let i=0;i<fechaActual.getFullYear();i++) {
-    edad++;
-  }*/
 
-  var hoy = new Date();
-  var cumpleanos = new Date(fecha);
-  var edad = hoy.getFullYear() - cumpleanos.getFullYear();
-  var mes = hoy.getMonth() - cumpleanos.getMonth();
+
+ /* let hoy = new Date();
+  let cumpleanos = new Date(fecha);
+  let edad = hoy.getFullYear() - cumpleanos.getFullYear();
+  let mes = hoy.getMonth() - cumpleanos.getMonth();
   if (mes < 0 || (mes === 0 && hoy.getDate() < cumpleanos.getDate())) {
       edad--;
-  }
+  }*/
 
   console.log("Tienes: "+edad);
 

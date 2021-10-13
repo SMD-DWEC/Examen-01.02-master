@@ -5,14 +5,17 @@
 */
 
 /*
-  Autor: Sergio Matamoros Delgado
+  Autor: Sergio Matamoros Delgado <smatamorosdelgado.guadalupe@alumnado.fundacionloyola.net>
   Fecha: 13-10-2021
+  Licencia: GNU Affero General Public License v3.0
 */
 
 'use strict'
 
 //Declara aquí la función
 
+//Función que suma un arreglo
+// Devuelve la suma total.
 function sumar(lista) {
   let suma = 0;
  /* for(let i=0; i<lista.lenght;i++) { //No se puede usar ya que lista es un objeto y no tiene lenght

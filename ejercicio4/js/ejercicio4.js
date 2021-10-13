@@ -3,11 +3,18 @@
   Corrige los 5 errores que impiden ejecutar la película.
 
 */
+
+/*
+  Autor: Sergio Matamoros Delgado <smatamorosdelgado.guadalupe@alumnado.fundacionloyola.net>
+  Fecha: 13-10-2021
+  Licencia: GNU Affero General Public License v3.0
+*/
+
 'use strict'
 
 class Pelicula {
   constructor() {
-    window.onload =  this.iniciar.bind(this);
+    window.onload =  this.iniciar.bind(this);//Onload mal formado
   }
 
   iniciar(){
@@ -32,10 +39,10 @@ class Personaje{
     this.vivo = true;
   }
   hablar(texto){
-    console.log(`${this.nombre}: "${texto}"`)
+    console.log(`${this.nombre}: "${texto}"`)//Comillas
   }
   dispararA(personaje){
-    this.arma.disparar()//
+    this.arma.disparar()//Falta this.
     if (Math.random() < 0.3){
       personaje.hablar('¡Maldita sea! ¡Me has dado!')
       personaje.vivo = false
