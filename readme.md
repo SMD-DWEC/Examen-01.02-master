@@ -8,3 +8,5 @@ Ejercicio 2: https://smd-dwec.github.io/Examen-01.02-master/ejercicio2/index.htm
 Ejercicio 3: https://smd-dwec.github.io/Examen-01.02-master/ejercicio3/index.html
 <br>
 Ejercicio 4: https://smd-dwec.github.io/Examen-01.02-master/ejercicio4/index.html
+<br>
+Ejercicio R1: https://smd-dwec.github.io/Examen-01.02-master/ejercicior1/index.html
