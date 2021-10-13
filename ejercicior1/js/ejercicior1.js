@@ -4,6 +4,12 @@
   Busca el algoritmo de comprobación en internet.
 */
 
+/*
+  Autor: Sergio Matamoros Delgado <smatamorosdelgado.guadalupe@alumnado.fundacionloyola.net>
+  Fecha: 13-10-2021
+  Licencia: GNU Affero General Public License v3.0
+*/
+
 'use strict'
 
 //Declara aquí la función
